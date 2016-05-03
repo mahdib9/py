@@ -33,6 +33,7 @@ local help = [[
 `/id` ✴️
 *بالرد على رساله موجهه يضهر لك المعلومات*
 ➖➖➖➖➖➖➖➖➖➖➖
+
 [mahdi](telegram.me/mahdib9
 
 ]]--اوامر المساعدة
@@ -297,7 +298,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "مرحبا بك يا ["..msg.from.first_name.."](telegram.me/"..user..") \n[SuPerTG]telegram.me/supertg9"
+local text = "مرحبا بك يا ["..msg.from.first_name.."](telegram.me/"..user..") \n[SuPerTG](telegram.me/supertg9)"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
@@ -307,7 +308,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "مرحبا بك يا ["..msg.from.first_name.."](telegram.me/"..user..") \n[SuPerTG](telegram.me/supertg9"
+local text = "مرحبا بك يا ["..msg.from.first_name.."](telegram.me/"..user..") \n[SuPerTG](telegram.me/supertg9)"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif is_admin(msg) and msg.text == "/users" then
  	local r = tostring(#add.id)
