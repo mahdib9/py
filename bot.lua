@@ -34,7 +34,7 @@ local help = [[
 *بالرد على رساله موجهه يضهر لك المعلومات*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-[mahdi](telegram.me/mahdib9
+[mahdi](telegram.me/mahdib9)
 
 ]]--اوامر المساعدة
 -------
