@@ -6,8 +6,8 @@ JSON = require('dkjson')
 HTTPS = require('ssl.https')
 dofile('utilities.lua')
 ----config----
-local bot_api_key = "" --التوكم هنا
-local You =  --خلي ايدي حسابك
+local bot_api_key = "140741113:AAHSbBQcKkkZBRQFPuJ9pk5C7S24TOnDuzI" --التوكم هنا
+local You = 144297711 --خلي ايدي حسابك
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]]
@@ -19,7 +19,7 @@ local help = [[
 ➖➖➖➖➖➖➖➖➖➖➖
 *commands:*`for admin`
 `/ban` ✴️
-*حظر عضو من ارسال رساله بالرد على رسالته*
+این رو بن کن
 `/unban` ✴️
 *فتح الحظر عن عضو عن طريق الرد على رسالته*
 `/users` ✴️
@@ -33,6 +33,8 @@ local help = [[
 `/id` ✴️
 *بالرد على رساله موجهه يضهر لك المعلومات*
 ➖➖➖➖➖➖➖➖➖➖➖
+[mahdi](telegram.me/mahdib9
+
 ]]--اوامر المساعدة
 -------
 
@@ -295,7 +297,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "مرحبا بك يا ["..msg.from.first_name.."](www.telegram.me/"..user..")"
+local text = "مرحبا بك يا ["..msg.from.first_name.."](telegram.me/"..user..")"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
